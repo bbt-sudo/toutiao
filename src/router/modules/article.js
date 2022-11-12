@@ -1,0 +1,7 @@
+export default [
+    {
+        path: '/article',
+        name: 'article',
+        component: () => import('@/views/article/index.vue'),
+    },
+]
